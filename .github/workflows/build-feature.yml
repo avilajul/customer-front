@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: install npm packages
+        run: npm install
+
       - name: install latest angular version
         run: npm install -g @angular/cli@latest
         
